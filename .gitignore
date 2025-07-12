@@ -1,0 +1,12 @@
+.conda
+__pycache__
+logs
+
+*.csv
+
+.env
+
+TODO.txt
+
+data
+shared_data

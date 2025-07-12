@@ -1,0 +1,13 @@
+services:
+  parser_worker:
+    build: ./parser_server
+    container_name: parser_worker
+    restart: unless-stopped
+    environment:
+      - DEPLOY_MODE=prod
+    env_file:
+      - .env
+    volumes:
+      - ./shared_data:/shared_data
+      - ./logs:/logs
+    command: python main.py
