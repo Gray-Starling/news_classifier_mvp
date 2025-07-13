@@ -1,0 +1,5 @@
+MODEL_NAME ="model.joblib"
+LOGS_DIR_NAME = "model"
+JSON_FILE_NAME = "info.json"
+DATA_DIR_NAME = "shared_data"
+DATA_FILE_NAME = "news_data.csv"

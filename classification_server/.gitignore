@@ -1,0 +1,12 @@
+.conda
+__pycache__
+
+*.csv
+
+.env
+
+*.tar
+
+category_mapping.json
+model.joblib
+
